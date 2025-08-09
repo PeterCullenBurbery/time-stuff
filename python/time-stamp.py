@@ -9,10 +9,17 @@ import time
 import pyperclip
 
 def get_timestamp() -> str:
+    """
+    Returns a high-precision, time zone-aware timestamp string:
+    YYYY_MMM_DDD_HHH_MMM_SSS_NNNNNNNNN_TimeZone_ISOYEAR_WWWW_WEEKDAY_YYYY_DOY_UnixSeconds_Nanoseconds
+
+    Example:
+        2025_008_004_013_048_029_083107000_America_slash_New_York_2025_W032_001_2025_216_1754681668_083107000
+    """
     # Local TZ and now with nanoseconds
     local_tz: ZoneInfo = tzlocal.get_localzone()
     ns_since_epoch: int = time.time_ns()
-    seconds_since_epoch: int = ns_since_epoch // 1_000_000_000
+    seconds_since_epoch: int = ns_since_epoch // 1_000_000_000  # integer seconds
     nanos_part: int = ns_since_epoch % 1_000_000_000
     now: datetime = datetime.fromtimestamp(seconds_since_epoch, tz=ZoneInfo(local_tz.key))
 

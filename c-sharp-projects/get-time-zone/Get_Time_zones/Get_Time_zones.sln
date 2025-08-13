@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get_time_zones_version_001_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get_time_zones_version_001_snake_case", "Get_time_zones_version_001_snake_case\Get_time_zones_version_001_snake_case.csproj", "{64CAF09D-F9B5-46DD-AA69-36D49F086219}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get_time_zones_IANA_tz_only", "Get_time_zones_IANA_tz_only\Get_time_zones_IANA_tz_only.csproj", "{80B6157A-61ED-4CAF-8439-8EC7E68D0138}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{64CAF09D-F9B5-46DD-AA69-36D49F086219}.Release|x64.Build.0 = Release|Any CPU
 		{64CAF09D-F9B5-46DD-AA69-36D49F086219}.Release|x86.ActiveCfg = Release|Any CPU
 		{64CAF09D-F9B5-46DD-AA69-36D49F086219}.Release|x86.Build.0 = Release|Any CPU
+		{80B6157A-61ED-4CAF-8439-8EC7E68D0138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B6157A-61ED-4CAF-8439-8EC7E68D0138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B6157A-61ED-4CAF-8439-8EC7E68D0138}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{80B6157A-61ED-4CAF-8439-8EC7E68D0138}.Debug|x64.Build.0 = Debug|Any CPU
+		{80B6157A-61ED-4CAF-8439-8EC7E68D0138}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{80B6157A-61ED-4CAF-8439-8EC7E68D0138}.Debug|x86.Build.0 = Debug|Any CPU
+		{80B6157A-61ED-4CAF-8439-8EC7E68D0138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B6157A-61ED-4CAF-8439-8EC7E68D0138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B6157A-61ED-4CAF-8439-8EC7E68D0138}.Release|x64.ActiveCfg = Release|Any CPU
+		{80B6157A-61ED-4CAF-8439-8EC7E68D0138}.Release|x64.Build.0 = Release|Any CPU
+		{80B6157A-61ED-4CAF-8439-8EC7E68D0138}.Release|x86.ActiveCfg = Release|Any CPU
+		{80B6157A-61ED-4CAF-8439-8EC7E68D0138}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

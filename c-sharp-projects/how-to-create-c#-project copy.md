@@ -3,7 +3,7 @@
 new solution
 
 ```
-mkdir Multi_app_solution && cd Multi_app_solution
+mkdird Multi_app_solution
 dotnet new sln -n Multi_app_solution
 ```
 new console app
@@ -32,3 +32,16 @@ list solution projects
 ```
 dotnet sln list
 ```
+
+function mkdird {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$path
+    )
+
+    # Create the directory (if it doesn't exist)
+    New-Item -ItemType Directory -Path $path -Force | Out-Null
+
+    # Change into the new directory
+    Set-Location $path
+}
